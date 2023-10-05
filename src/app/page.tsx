@@ -5,7 +5,7 @@ export default function Home() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
   return (
     <div className="pt-4 pb-32 container ">
-      <h1>welcome to Gieva women Entrepreneur Resource center</h1>
+      <h1>welcome Gieva women!</h1>
       {messages.map((message) => (
         <div
           key={message.id}
